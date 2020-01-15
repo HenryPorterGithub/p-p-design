@@ -47,7 +47,7 @@
     -webkit-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
-    font-size: 200px;
+    font-size: 150px;
 }
 
 #slogan {
@@ -204,20 +204,20 @@ p {
         height: 60vh;
     }
 
-    #squareTextUpper {
-        font-size: 150px;
-    }
-
 }
 
 @media only screen and (max-width: 1200px) {
     #squareTextUpper {
         font-size: 100px;
     }
-    
-        
+
+
     .square {
         border: 4px solid black;
+    }
+
+    .number {
+        font-size: 100px;
     }
 }
 
@@ -231,24 +231,32 @@ p {
         left: 53vw;
         font-size: 35px;
     }
-    
-        
+
+
     .square {
         border: 3px solid black;
     }
 }
 
 @media only screen and (max-width: 768px) {
+    #sec1 {
+        padding-top: 50px;
+    }
+
     #squareTextUpper {
         font-size: 70px;
     }
-    
+
     #slogan {
-        top: 21vw;
+        top: 30vw;
     }
-    
+
     .square {
         border: 2px solid black;
+    }
+
+    .number {
+        font-size: 50px;
     }
 }
 
@@ -256,11 +264,13 @@ p {
 @media only screen and (max-width: 576px) {
     #sec1 {
         padding-top: 50px;
-        height: 25vh;
+        height: 30vh;
     }
+
     #squareTextUpper {
         font-size: 30px;
     }
+
     #slogan {
         font-size: 20px;
         top: 35vw;
